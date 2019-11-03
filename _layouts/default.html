@@ -1,0 +1,35 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/hero-bg.jpg">
+      <div class="hero__wrap">
+        <h1 class="hero__title">{{ site.title | escape }}!</h1>
+        <!-- <p class="hero__meta">{{ site.tagline }}</p> -->
+        <p class="hero__meta" style="font-weight: bold;">Get informed then vote in the 2019 election!</p>
+      </div>
+    </div>
+
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list">
+            {% include card.html title="Register to Vote" url="/register" description="You can still register during early voting" image="registration.jpg" %}
+            {% include card.html title="Preview your Ballot" url="/ballot" description="Preview your ballot" image="ballot.jpg" %}
+            {% include card.html title="Find your Polling Place" url="/locations" description="Get out and vote" image="polling-place.jpg" %}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,53 @@
+# SITE CONFIGURATION
+title: "Vote, CLT"
+author: Open Charlotte Brigade
+description: "Helping Charlotte get informed and vote in the 2019 election."
+baseurl: "/"
+url: "https://voteclt.com"
+
+# SEO PLUGIN
+social:
+  name: Open Charlotte
+  links:
+    - https://twitter.com/OpenCLTBrigade
+    - https://www.facebook.com/OpenCLTBrigade
+    - https://github.com/opencltbrigade
+
+logo: '/assets/img/og-logo.png'
+image: '/assets/img/og-logo.png'
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Register', link: '/register'}
+  - {name: 'Ballot Preview', link: '/ballot'}
+  - {name: 'Polling Places', link: '/locations'}
+
+tagline: ""
+
+email: info@opencharlotte.org
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

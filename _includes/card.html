@@ -1,0 +1,17 @@
+<div class="post-card">
+  <a href="{{ include.url }}">
+    <figure class="post-card__thumb">
+      <img
+        src="{{ site.url }}{{ site.baseurl }}/assets/img/{{include.image}}"
+        class="lazyload blur"
+        alt="{{include.title}}"
+      />
+    </figure>
+  </a>
+  <a class="post-card__inner" href="{{ include.url }}">
+    <div class="post-card__header">
+      <h2>{{ include.title }}</h2>
+    </div>
+    <p>{{ include.description }}</p>
+  </a>
+</div>
