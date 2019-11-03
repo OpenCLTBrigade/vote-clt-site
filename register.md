@@ -48,4 +48,4 @@ Before you go, preview the voter registration form by <a href="https://dl.ncsbe.
 
 ## Find a One-Stop Voting Site!
 
-You can register vote and cast a [ballot](/ballot) at a one-stop voting site before election day. Find the site nearest to you by <a href="https://vt.ncsbe.gov/ossite/" target="_blank" rel="noopener noreferrer">clicking here></a>.
+You can register vote and cast a [ballot](/ballot) at a one-stop voting site before election day. Find the site nearest to you by <a href="https://vt.ncsbe.gov/ossite/" target="_blank" rel="noopener noreferrer">clicking here</a>.
